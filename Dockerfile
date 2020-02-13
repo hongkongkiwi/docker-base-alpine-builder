@@ -10,5 +10,6 @@ RUN apk update \
         git \
         jq \
         make \
+        alpine-sdk \
     && apk add \
         bash
